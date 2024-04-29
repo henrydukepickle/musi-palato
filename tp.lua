@@ -1244,10 +1244,10 @@ return {
 
 
             j_stuntman = {
-                name = "Stuntman",
+                name = "󱤑󱦃",
                 text = {
-                    "{C:chips}+#1#{} Chips,",
-                    "{C:attention}-#2#{} hand size"
+                    "{C:chips}+#1#{}󱥜,",
+                    "{C:attention}-#2#{}󱥣󱤭"
                 },
                 unlock = {
                     "In one hand,",
@@ -1270,10 +1270,9 @@ return {
                 }
             },
             j_brainstorm = {
-                name = "Brainstorm",
+                name = "󱥵󱤤",
                 text = {
-                    "Copies the ability",
-                    "of leftmost {C:attention}Joker"
+                    "󱥆󱤧󱥖{C:attention}󱤪󱤻󱥍󱥒󱤼"
                 },
                 unlock = {
                     "Discard a",
@@ -1296,9 +1295,7 @@ return {
             j_shoot_the_moon = {
                 name = "Shoot the Moon",
                 text = {
-                    "{C:mult}+#1#{} Mult for",
-                    "each {C:attention}Queen{}",
-                    "held in hand"
+                    "󱤤󱦂󱤓󱤄󱤧󱥌󱤉󱥵{C:mult}+#1#{}"
                 },
                 unlock = {
                     "Play every {E:1,C:attention}Heart",
@@ -1309,7 +1306,7 @@ return {
             j_drivers_license = {
                 name = "Driver's License",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if you have",
+                    "󱥵{X:mult,C:white} X#1# {} if you have",
                     "at least {C:attention}16{} Enhanced",
                     "cards in your full deck",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive})"
@@ -1320,11 +1317,11 @@ return {
                 }
             },
             j_cartomancer = {
-                name = "Cartomancer",
+                name = "󱤑󱥍󱤪󱤾",
                 text = {
-                    "Create a {C:tarot}Tarot{} card",
-                    "when {C:attention}Blind{} is selected",
-                    "{C:inactive}(Must have room)"
+                    "󱥆󱤧󱥉󱤉󱤪{C:tarot}󱤾{}",
+                    "󱤬󱥫󱥍󱤖{C:attention}󱥱{}",
+                    "{C:inactive}(󱥓󱤧󱤂󱤡󱥆󱤧󱥉󱤂)"
                 },
                 unlock = {
                     "Discover every",
@@ -1332,11 +1329,11 @@ return {
                 }
             },
             j_astronomer = {
-                name = "Astronomer",
+                name = "󱤑󱤺",
                 text = {
-                    "All {C:planet}Planet{} cards and",
-                    "{C:planet}Celestial Packs{} in",
-                    "the shop are {C:attention}free"
+                    "󱤪{C:planet}󱤺{}󱤄󱤊",
+                    "{C:planet}󱤟󱤪󱤺{}󱤬󱥭󱤋",
+                    "󱤧󱥷󱤂{C:attention}󱤲"
                 },
                 unlock = {
                     "Discover every",
@@ -1344,11 +1341,10 @@ return {
                 }
             },
             j_burnt = {
-                name = "Burnt Joker",
+                name = "󱤻󱤪󱥍󱥗󱥐",
                 text = {
-                    "Upgrade the level of",
-                    "the first {C:attention}discarded",
-                    "poker hand each round",
+                    "󱥄󱥔󱤉󱤞󱤭󱥍",
+                    "󱤭{C:attention}󱥶󱥳󱤬󱤻󱤄"
                 },
                 unlock = {
                     "Sell a total",
@@ -1357,14 +1353,14 @@ return {
                 }
             },
             j_bootstraps = {
-                name = "Bootstraps",
+                name = "󱤎󱥍󱤥󱤅",
                 text = {
-                    "{C:mult}+#1#{} Mult for every",
-                    "{C:money}$#2#{} you have"
+                    "󱤲{C:money}$#2#{}󱤄󱥞",
+                    "󱤧󱥌󱤉󱥵{C:mult}+#1#{}"
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "{C:dark_edition}Polychrome{} Jokers"
+                    "󱥄󱤓󱤉󱤪󱤻{E:1,C:attention}#1#",
+                    "󱥍󱥤{C:dark_edition}󱤞{}"
                 }
             },
             j_caino = {
@@ -1412,7 +1408,7 @@ return {
                 }
             },
             j_perkeo = {
-                name = "Perkeo",
+                name = "󱤑",
                 text = {
                     "Creates a {C:dark_edition}Negative{} copy of",
                     "{C:attention}1{} random {C:attention}consumable{}",
@@ -2513,7 +2509,7 @@ return {
             bl_wheel = {
                 name = "󱥽󱥜",
                 text = {
-                    " in 7 cards get",
+                    "1 in 7 cards get",
                     "drawn face down"
                 }
             },
@@ -2551,8 +2547,7 @@ return {
             bl_mouth = {
                 name = "󱥽󱥰",
                 text = {
-                    "Play only 1 hand",
-                    "type this round"
+                    "󱥄󱤙󱤞󱤭󱥳󱥨"
                 }
             },
             bl_plant = {
@@ -3173,9 +3168,7 @@ return {
             pinned_left = {
                 name = "󱤘󱤂󱥩",
                 text = {
-                    "This Joker stays",
-                    "pinned to the",
-                    "leftmost position"
+                    "󱤪󱤻󱥁󱤧󱤈󱤬󱥁"
                 }
             }
         }
@@ -3296,26 +3289,26 @@ return {
             completionist_plus_plus = "Earn a Gold Sticker on every Joker", 
         },
         challenge_names = {
-            c_omelette_1 = "The Omelette",
-            c_city_1 = "15 Minute City",
-            c_rich_1 = "Rich get Richer",
-            c_knife_1 = "On a Knife's Edge",
-            c_xray_1 = "X-ray Vision",
-            c_mad_world_1 = "Mad World",
-            c_luxury_1 = "Luxury Tax",
-            c_non_perishable_1 = "Non-Perishable",
-            c_medusa_1 = "Medusa",
-            c_double_nothing_1 = "Double or Nothing",
-            c_typecast_1 = "Typecast",
-            c_inflation_1 = "Inflation",
-            c_bram_poker_1 = "Bram Poker",
-            c_fragile_1 = "Fragile",
-            c_monolith_1 = "Monolith",
-            c_blast_off_1 = "Blast Off",
-            c_five_card_1 = "Five-Card Draw",
-            c_golden_needle_1 = "Golden Needle",
-            c_cruelty_1 = "Cruelty",
-            c_jokerless_1 = "Jokerless",
+            c_omelette_1 = "󱤶󱥍󱤜󱥴",
+            c_city_1 = "󱤰󱥭󱥍󱥫󱤨",
+            c_rich_1 = "󱤑󱤲󱤧󱤖󱤲",
+            c_knife_1 = "󱤬󱥒󱥍󱤎󱥻",
+            c_xray_1 = "󱤮󱤄",
+            c_mad_world_1 = "󱤰󱤾",
+            c_luxury_1 = "󱤲󱤍",
+            c_non_perishable_1 = "󱥶󱤂",
+            c_medusa_1 = "󱤑󱤛",
+            c_double_nothing_1 = "󱥮󱤇󱤂",
+            c_typecast_1 = "󱤖󱤈",
+            c_inflation_1 = "󱤲󱤧󱤖󱤨",
+            c_bram_poker_1 = "󱤪󱤻󱥍󱤼󱤂",
+            c_fragile_1 = "󱤘󱥈",
+            c_monolith_1 = "󱤛󱥳",
+            c_blast_off_1 = "󱥩󱥚",
+            c_five_card_1 = "󱤻󱥍󱤪󱤭",
+            c_golden_needle_1 = "󱤎󱥻󱤲",
+            c_cruelty_1 = "󱤍",
+            c_jokerless_1 = "󱤂󱥍󱤪󱤻",
         },
         poker_hands = {
             ['Flush Five'] = "󱤭󱥍󱤄󱥖",
@@ -3745,22 +3738,22 @@ return {
             a_mult_minus = "-󱥵#1#",
             a_chips = "+#1#",
             a_chips_minus = "-#1#",
-            a_handsize = "+#1# Hand Size",
-            a_handsize_minus = "-#1# Hand Size",
-            a_hands = "+#1# Hands",
-            a_sold_tally = "#1#/#2# Sold",
+            a_handsize = "+#1#󱥣󱤭",
+            a_handsize_minus = "-#1#󱥣󱤭",
+            a_hands = "+#1#󱤭",
+            a_sold_tally = "#1#/#2#󱤋󱥶",
             a_remaining = "#1# Remaining",
             ante_x_voucher = "󱤪󱤋󱥧󱥚#1#",
             loyalty_active = "Active!",
             loyalty_inactive = "#1# remaining",
             deck_preview_wheel_singular = "Numbers may be lower due to the #1# card drawn face down",
             deck_preview_wheel_plural = "Numbers may be lower due to the #1# cards drawn face down",
-            challenges_completed = "Completed #1#/#2# Challenges",
-            unlocked = "#1#/#2# Unlocked",
-            completed = "#1#/#2# Completed",
+            challenges_completed = "󱥐󱤉󱤻󱤍#1#/#2#",
+            unlocked = "#1#/#2#󱤧󱤖󱤘",
+            completed = "#1#/#2#󱤧󱤅",
             interest = "#1# interest per $#2# (#3# max)",
-            remaining_hand_money = "Remaining Hands ($#1# each)",
-            remaining_discard_money = "Remaining Discards ($#1# each)",
+            remaining_hand_money = "󱤭󱤈($#1# each)",
+            remaining_discard_money = "󱥶󱤈($#1# each)",
             ml_foil_desc = {
                 "󱥤󱤣",
                 "+󱥜#1#"
