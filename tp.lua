@@ -2309,178 +2309,155 @@ return {
         },
         Tag = {
             tag_uncommon = {
-                name = "Uncommon Tag",
+                name = "󱥸󱥔",
                 text = {
-                    "Shop has an",
-                    "{C:green}Uncommon Joker"
+                    "󱥭󱤋󱤧󱤓󱤉󱤪󱤻{C:green}󱥔"
                 }
             },
             tag_rare = {
-                name = "Rare Tag",
+                name = "󱥸󱦃",
                 text = {
-                    "Shop has a",
-                    "{C:red}Rare Joker"
+                    "󱥭󱤋󱤧󱤓󱤉󱤪󱤻{C:green}󱦃"
                 }
             },
             tag_negative = {
-                name = "Negative Tag",
+                name = "󱥸󱥏",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Negative"
+                    "󱤪󱤻󱥒󱥍󱥤󱤂󱤧󱤖{C:dark_edition}󱥏"
                 }
             },
             tag_foil = {
-                name = "Foil Tag",
+                name = "󱥸󱤣",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Foil"
+                    "󱤪󱤻󱥒󱥍󱥤󱤂󱤧󱤖{C:dark_edition}󱤣"
                 }
             },
             tag_holo = {
-                name = "Holographic Tag",
+                name = "󱥸󱤫",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Holographic"
+                    "󱤪󱤻󱥒󱥍󱥤󱤂󱤧󱤖{C:dark_edition}󱤫"
                 }
             },
             tag_polychrome = {
-                name = "Polychrome Tag",
+                name = "󱥸󱤞",
                 text = {
-                    "Next base edition shop",
-                    "Joker becomes {C:dark_edition}Polychrome"
+                    "󱤪󱤻󱥒󱥍󱥤󱤂󱤧󱤖{C:dark_edition}󱤞"
                 }
             },
             tag_investment = {
-                name = "Investment Tag",
+                name = "󱥸󱥍󱤲󱤖",
                 text = {
-                    "After defeating",
-                    "the Boss Blind,",
-                    "gain {C:money}$#1#"
+                    "󱥄󱤖󱤓󱤉󱤲{C:money}$#1#",
+                    "󱤬󱥫󱥍󱤅󱥍󱥽󱥣"
                 }
             },
             tag_voucher = {
-                name = "Voucher Tag",
+                name = "󱥸󱥍󱤪󱤋",
                 text = {
-                    "Adds one {C:voucher}Voucher",
-                    "to the next shop"
+                    "󱥄󱥌󱤉󱤪{C:voucher}󱤋󱥩󱥭󱤋󱥒"
                 }
             },
             tag_boss = {
-                name = "Boss Tag",
+                name = "󱥸󱥍󱥽󱥣",
                 text = {
-                    "Rerolls the",
-                    "{C:attention}Boss Blind"
+                    "󱥄󱤆󱤉{C:attention}󱥽󱥣󱤬"
                 }
             },
             tag_standard = {
-                name = "Standard Tag",
+                name = "󱥸󱥍󱤪󱦂",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Standard Pack"
+                    "󱥄󱥌󱤉󱤟󱥣󱥍{C:attention}󱤪󱦂󱤼"
                 }
             },
             tag_charm = {
-                name = "Charm Tag",
+                name = "󱥸󱥍󱤪󱤾",
                 text = {
-                    "Gives a free",
-                    "{C:tarot}Mega Arcana Pack"
+                    "󱥄󱥌󱤉󱤟󱥣󱥍{C:tarot}󱤪󱤾󱤼"
                 }
             },
             tag_meteor = {
-                name = "Meteor Tag",
+                name = "󱥸󱥍󱤪󱤺",
                 text = {
-                    "Gives a free",
-                    "{C:planet}Mega Celestial Pack"
+                    "󱥄󱥌󱤉󱤟󱥣󱥍{C:planet}󱤪󱤺󱤼"
                 }
             },
             tag_buffoon = {
-                name = "Buffoon Tag",
+                name = "󱥸󱥍󱤪󱤻",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Buffoon Pack"
+                    "󱥄󱥌󱤉󱤟󱥣󱥍{C:attention}󱤪󱤻󱤼"
                 }
             },
             tag_handy = {
-                name = "Handy Tag",
+                name = "󱥸󱤭",
                 text = {
-                    "Gives {C:money}$#1#{} per played",
-                    "{C:blue}hand{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "󱤭󱤙󱥐󱤄󱥞󱤧󱥌󱤉󱤲{C:money}$#1#{}",
+                    "{C:inactive}(󱥆󱤖󱥌󱤉󱤲{C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage = {
-                name = "Garbage Tag",
+                name = "󱥸󱤐",
                 text = {
-                    "Gives {C:money}$#1#{} per unused",
-                    "{C:red}discard{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
+                    "󱥶󱥐󱤄󱥍󱤙󱤄󱤧󱥌󱤉󱤲{C:money}$#1#{}",
+                    "{C:inactive}(󱥆󱤖󱥌󱤉󱤲{C:money}$#2#{C:inactive})"
                 }
             },
             tag_coupon = {
-                name = "Coupon Tag",
+                name = "󱥸󱥍󱤋󱥔",
                 text = {
-                    "Initial cards and",
-                    "booster packs in next",
-                    "shop are free"
+                    "󱤪󱥍󱥫󱥳󱤊󱤟󱤪󱥍󱥫󱥳󱤬",
+                    "󱥭󱤋󱥒󱤧󱥷󱤂󱤲"
                 }
             },
             tag_double = {
-                name = "Double Tag",
+                name = "󱥸󱥮",
                 text = {
-                    "Gives a copy of the",
-                    "next selected {C:attention}Tag{}",
-                    "{s:0.8,C:attention}Double Tag{s:0.8} excluded"
+                    "󱥄󱥮󱤉󱥸󱥒󱥞",
+                    "(󱤘󱤂󱥮󱤉{s:0.8,C:attention}󱥸󱥮{s:0.8})"
                 }
             },
             tag_juggle = {
-                name = "Juggle Tag",
+                name = "󱥸󱥍󱤻󱥜",
                 text = {
-                    "{C:attention}+#1#{} hand size",
-                    "next round"
+                    "{C:attention}+#1#{}󱥣󱤭󱤬󱥱󱥒"
                 }
             },
             tag_d_six = {
-                name = "D6 Tag",
+                name = "󱥸󱤆",
                 text = {
-                    "Rerolls in next shop",
-                    "start at {C:money}$0"
+                    "󱥄󱤘󱤆󱤉󱥭󱤋󱥁󱤙󱤲{C:money}$0"
                 }
             },
             tag_top_up = {
-                name = "Top-up Tag",
+                name = "󱥸󱥍󱤪󱥮",
                 text = {
-                    "Create up to {C:attention}#1#",
-                    "{C:blue}Common{} Jokers",
-                    "{C:inactive}(Must have room)"
+                    "󱥄󱥉󱤉󱤪󱤻{C:blue}󱤍{}{C:attention}#1#",
+                    "{C:inactive}(󱥓󱤧󱤂󱤡󱥞󱥉󱤂)"
                 }
             },
             tag_skip = {
-                name = "Speed Tag",
+                name = "󱥸󱥩",
                 text = {
-                    "Gives {C:money}$#1#{} per skipped",
-                    "Blind this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "󱥱󱤂󱥐󱤄󱥞󱤧󱥌󱤉󱤲{C:money}$#1#{}",
+                    "{C:inactive}(󱥆󱤧󱥌󱤉󱤲{C:money}$#2#{C:inactive})"
                 }
             },
             tag_orbital = {
-                name = "Orbital Tag",
+                name = "󱥸󱥍󱥩󱥜",
                 text = {
-                    "Upgrade {C:attention}#1#",
-                    "by {C:attention}#2# levels"
+                    "󱥄󱥔{C:attention}#2#󱤉󱤞{C:attention}#1#"
                 }
             },
             tag_economy = {
-                name = "Economy Tag",
+                name = "󱥸󱤋",
                 text = {
-                    "Doubles your money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})"
+                    "󱥄󱥮󱤉󱤲󱥞",
+                    "{C:inactive}(󱤘󱥮󱤉󱤲{C:money}$#1#{C:inactive}󱥨)"
                 }
             },
             tag_ethereal = {
-                name = "Ethereal Tag",
+                name = "󱥸󱤝",
                 text = {
-                    "Gives a free",
-                    "{C:spectral}Spectral Pack"
+                    "󱥄󱥌󱤉󱤟󱥍󱤪{C:spectral}󱤝"
                 }
             }
         },
@@ -3403,8 +3380,8 @@ return {
             b_redeem = "󱥄󱤙",
             b_open = "󱥄󱤙",
             b_and_use = "󱥄󱤙",
-            b_next_round_1 = "Next",
-            b_next_round_2 = "Round",
+            b_next_round_1 = "󱥱",
+            b_next_round_2 = "󱥒",
             b_play_hand = "󱥄󱤙",
             b_discard = "󱥄󱥶",
             b_sort_hand = "󱥄󱤿󱤉󱤪",
