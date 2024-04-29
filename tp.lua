@@ -1426,37 +1426,37 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Overstock",
+                name = "󱤌󱥸",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{}󱥓󱤪󱥸",
+                    "󱥭󱤋"
                 }
             },
             v_clearance_sale = {
-                name = "Clearance Sale",
+                name = "󱤋󱥶",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+                    "󱤪󱤄󱤊󱤟󱤪󱤄󱤬",
+                    "󱥭󱤋 {C:attention}#1#%{} off"
                 }
             },
             v_tarot_merchant = {
-                name = "Tarot Merchant",
+                name = "󱤋󱥍󱤪󱤾",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "{C:tarot}󱤪󱤾{}󱤧󱤖󱤬󱤼",
+                    "(󱤬󱥫{C:attention}#1#X{})",
+                    "󱤬󱥭󱤋"
                 }
             },
             v_planet_merchant = {
-                name = "Planet Merchant",
+                name = "󱤋󱤺",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "{C:planet}󱤪󱤺{}󱤧󱤖󱤬󱤼",
+                    "(󱤬󱥫{C:attention}#1#X{})",
+                    "󱤬󱥭󱤋"
                 }
             },
             v_hone = {
-                name = "Hone",
+                name = "󱤖󱤘",
                 text = {
                     "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
                     "{C:dark_edition}Polychrome{} cards",
@@ -1464,45 +1464,39 @@ return {
                 }
             },
             v_reroll_surplus = {
-                name = "Reroll Surplus",
+                name = "󱤆󱤼",
                 text = {
                     "Rerolls cost",
                     "{C:money}$#1#{} less"
                 }
             },
             v_crystal_ball = {
-                name = "Crystal Ball",
+                name = "󱥜󱤛",
                 text = {
-                    "{C:attention}+1{} consumable slot"
+                    "{C:attention}+1{} 󱤘󱥍󱤓󱤪"
                 }
             },
             v_telescope = {
-                name = "Telescope",
+                name = "󱤎󱤮",
                 text = {
-                    "{C:attention}Celestial Packs{} always",
-                    "contain the {C:planet}Planet{}",
-                    "card for your most",
-                    "played {C:attention}poker hand"
+                    "{C:attention}󱤟󱥍󱤪󱤺{}󱤄󱤧󱤓󱤉",
+                    "{C:planet}󱤪󱤺{}󱥍󱤞󱤭󱤼󱥞"
                 }
             },
             v_grabber = {
-                name = "Grabber",
+                name = "󱤎󱦅",
                 text = {
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round"
+                    "󱥄󱤖󱤓󱤉{C:blue}+#1#{}󱤭"
                 }
             },
             v_wasteful = {
-                name = "Wasteful",
+                name = "󱥶󱤍",
                 text = {
-                    "Permanently",
-                    "gain {C:red}+#1#{} discard",
-                    "per round"
+                    "󱥄󱤖󱤓󱤉{C:red}+#1#{}󱥶"
                 }
             },
             v_seed_money = {
-                name = "Seed Money",
+                name = "󱤲󱥇",
                 text = {
                     "Raise the cap on",
                     "interest earned",
@@ -1510,90 +1504,83 @@ return {
                 }
             },
             v_blank = {
-                name = "Blank",
+                name = "󱤂",
                 text = {
-                    "{C:inactive}Does nothing?"
+                    "{C:inactive}󱥄󱥉󱥙"
                 }
             },
             v_magic_trick = {
-                name = "Magic Trick",
+                name = "󱤻󱤾",
                 text = {
-                    "{C:attention}Playing cards{} can",
-                    "be purchased",
-                    "from the {C:attention}shop"
+                    "󱥄󱤘󱤋󱤉{C:attention}󱤪󱦂",
+                    "󱤬{C:attention}󱥭󱤋"
                 }
             },
             v_hieroglyph = {
-                name = "Hieroglyph",
+                name = "󱥠󱤾",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} hand",
-                    "per round"
+                    "{C:attention}-#1#{}󱥚,",
+                    "{C:blue}-#1#{}󱤭"
                 }
             },
             v_directors_cut = {
-                name = "Director's Cut",
+                name = "󱤿󱥍󱤑󱤤",
                 text = {
-                    "Reroll Boss Blind",
-                    "{C:attention}1{} time per Ante,",
-                    "{C:money}$#1#{} per roll"
+                    "󱥄󱤘󱤆󱤉󱥽󱥣",
+                    "󱤙󱤲{C:money}$#1#{}",
+                    "({C:attention}1{}󱤬󱥫󱥨󱤬󱥚󱤄)"
                 }
             },
             v_paint_brush = {
-                name = "Paint Brush",
+                name = "󱤎󱤞",
                 text = {
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{}󱥣󱤭",
                 }
             },
             v_overstock_plus = {
-                name = "Overstock Plus",
+                name = "󱤌󱥸󱤼",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{}󱥓󱤪󱥸",
+                    "󱥭󱤋"
                 },
                 unlock = {
-                    "Spend a total of",
-                    "{C:money}$#1#{} at the shop",
-                    "{C:inactive}($#2#)"
+                    "󱥄󱤙󱤲{C:money}$#1#{}󱤬󱥭󱤋",
+                    "󱤬󱤻󱤄{C:inactive}($#2#)"
                 }
             },
             v_liquidation = {
-                name = "Liquidation",
+                name = "󱤖󱥖󱥪",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+                    "󱤪󱤄󱤊󱤟󱤪󱤄󱤬",
+                    "󱥭󱥪{C:attention}#1#%{} off"
                 },
                 unlock = {
-                    "Redeem at least",
-                    "{C:attention}#1#{C:voucher} Voucher{} cards",
-                    "in one run"
+                    "󱥄󱤋󱤉{C:voucher}󱤪󱤋{C:attention}#1#󱤬󱤻󱥳"
                 }
             },
             v_tarot_tycoon = {
-                name = "Tarot Tycoon",
+                name = "󱤪󱤾󱤼󱤀",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "󱤪{C:tarot}󱤾{}󱤧󱤖󱤬󱤼",
+                    "(󱤬󱥫{C:attention}#1#X{})",
+                    "󱤬󱥭󱤋"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:tarot} Tarot{} cards",
-                    "from the shop",
+                    "󱥄󱤋󱤉󱤪{C:tarot}󱤾{}{C:attention}#1#",
+                    "󱤬󱥭󱤋",
                     "{C:inactive}(#2#)"
                 }
             },
             v_planet_tycoon = {
-                name = "Planet Tycoon",
+                name = "󱤪󱤺󱤼󱤀",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "󱤪{C:planet}󱤺{}󱤧󱤖󱤬󱤼",
+                    "(󱤬󱥫{C:attention}#1#X{})",
+                    "󱤬󱥭󱤋"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:planet} Planet{} cards",
-                    "from the shop",
+                    "󱥄󱤋󱤉󱤪{C:planet}󱤺{}{C:attention}#1#",
+                    "󱤬󱥭󱤋",
                     "{C:inactive}(#2#)"
                 }
             },
