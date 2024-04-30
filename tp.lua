@@ -201,19 +201,16 @@ return {
                 }
             },
             j_banner = {
-                name = "Banner",
+                name = "󱤥󱥣",
                 text = {
-                    "{C:chips}+#1#{} Chips for",
-                    "each remaining",
-                    "{C:attention}discard"
+                    "󱥶󱤈󱤄󱥞󱤧󱥌󱤉󱥜{C:chips}+#1#{}"
                 }
             },
             j_mystic_summit = {
                 name = "󱥀󱤾",
                 text = {
-                    "{C:mult}+#1#{} Mult when",
-                    "{C:attention}#2#{} discards",
-                    "remaining"
+                    "󱥞󱤓󱤉󱥶{C:attention}#2#{}󱤡󱥞󱤖󱤓󱤉󱥵{C:mult}+#1#{}"
+
                 }
             },
             j_marble = {
@@ -224,7 +221,7 @@ return {
                 }
             },
             j_loyalty_card = {
-                name = "Loyalty Card",
+                name = "󱤪󱥍󱤈󱥔",
                 text = {
                     "{X:red,C:white} X#1# {} Mult every",
                     "{C:attention}#2#{} hands played",
@@ -249,14 +246,14 @@ return {
                 }
             },
             j_chaos = {
-                name = "󱤪󱤻[Chaos]",
+                name = "󱤪󱤻󱥍󱤾󱤍",
                 text = {
                     "{C:attention}#1#{} free {C:green}Reroll",
                     "per shop"
                 }
             },
             j_misprint = {
-                name = "Misprint",
+                name = "󱤪󱥍󱥉󱤍",
                 text = {
                     ""
                 }
@@ -361,7 +358,7 @@ return {
                 }
             },
             j_business = {
-                name = "Business Card",
+                name = "󱤪󱤋",
                 text = {
                     "Played {C:attention}face{} cards have",
                     "a {C:green}#1# in #2#{} chance to",
@@ -377,7 +374,7 @@ return {
                 }
             },
             j_superposition = {
-                name = "Superposition",
+                name = "󱤬󱤼",
                 text = {
                     "Create a {C:tarot}Tarot{} card if",
                     "poker hand contains an",
@@ -386,7 +383,7 @@ return {
                 }
             },
             j_ride_the_bus = {
-                name = "Ride the Bus",
+                name = "󱥄󱥩󱤬󱥭󱥩󱥣",
                 text = {
                     "{C:mult}+#1#{} Mult per",
                     "consecutive hand",
@@ -511,7 +508,7 @@ return {
                 }
             },
             j_ticket = {
-                name = "Golden Ticket",
+                name = "󱤪󱤲",
                 text = {
                     "󱥞󱤙󱤉{C:attention}󱤪󱤲{}󱤡,",
                     "󱥄󱤖󱤓󱤉{C:money}$#1#{}"
@@ -523,7 +520,7 @@ return {
                 }
             },
             j_mr_bones = {
-                name = "󱤑[Moli]",
+                name = "󱤑󱤷",
                 text = {
                     "Prevents Death",
                     "if chips scored",
@@ -568,7 +565,7 @@ return {
                 }
             },
             j_swashbuckler = {
-                name = "Swashbuckler",
+                name = "󱤑󱥍󱥭󱥩󱥪",
                 text = {
                     "Adds the sell value of",
                     "all owned {C:attention}Jokers{} left",
@@ -582,7 +579,7 @@ return {
                 }
             },
             j_troubadour = {
-                name = "Troubadour",
+                name = "󱤑󱥍󱥬󱥅",
                 text = {
                     "{C:attention}+#1#{} hand size,",
                     "{C:red}-#2#{} hands per round"
@@ -594,7 +591,7 @@ return {
                 }
             },
             j_certificate = {
-                name = "Certificate",
+                name = "󱤪󱥣",
                 text = {
                     "When round begins,",
                     "add a random {C:attention}playing",
@@ -608,7 +605,7 @@ return {
                 }
             },
             j_smeared = {
-                name = "Smeared Joker",
+                name = "󱤪󱤻󱥍󱥠󱤍",
                 text = {
                     "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
                     "count as the same suit,",
@@ -622,7 +619,7 @@ return {
                 }
             },
             j_throwback = {
-                name = "Throwback",
+                name = "󱥩󱥧",
                 text = {
                     "{X:mult,C:white} X#1# {} Mult for each",
                     "{C:attention}Blind{} skipped this run",
@@ -634,7 +631,7 @@ return {
                 }
             },
             j_hanging_chad = {
-                name = "Hanging Chad",
+                name = "󱤪󱥍󱤈󱤅",
                 text = {
                     "Retrigger {C:attention}first{} played",
                     "card used in scoring"
@@ -645,7 +642,7 @@ return {
                 }
             },
             j_rough_gem = {
-                name = "Rough Gem",
+                name = "󱤛󱥍󱥼󱤂",
                 text = {
                     "Played cards with",
                     "{C:diamonds}Diamond{} suit earn",
@@ -658,7 +655,7 @@ return {
                 }
             },
             j_bloodstone = {
-                name = "Bloodstone",
+                name = "󱤛󱥍󱥪󱤫",
                 text = {
                     "{C:green}#1# in #2#{} chance for",
                     "played cards with",
@@ -672,7 +669,7 @@ return {
                 }
             },
             j_arrowhead = {
-                name = "Arrowhead",
+                name = "󱤛󱥍󱥱󱥩",
                 text = {
                     "Played cards with",
                     "{C:spades}Spade{} suit give",
@@ -685,7 +682,7 @@ return {
                 }
             },
             j_onyx_agate = {
-                name = "Onyx Agate",
+                name = "󱤛󱥏",
                 text = {
                     "Played cards with",
                     "{C:clubs}Club{} suit give",
@@ -698,7 +695,7 @@ return {
                 }
             },
             j_glass = {
-                name = "Glass Joker",
+                name = "󱤪󱤻󱥍",
                 text = {
                     "Gains {X:mult,C:white} X#1# {} Mult",
                     "for every {C:attention}Glass Card",
@@ -2552,7 +2549,7 @@ return {
                 }
             },
             bl_final_leaf = {
-                name = "Verdant Leaf",
+                name = "󱤗󱤣",
                 text = {
                     "All cards debuffed",
                     "until 1 Joker sold"
@@ -2574,8 +2571,7 @@ return {
             bl_house = {
                 name = "󱥽󱥭",
                 text = {
-                    "First hand is",
-                    "drawn face down"
+                    "󱥞󱤘󱤂󱤮󱤉󱤭󱤓󱥳"
                 }
             },
             bl_club = {
@@ -2587,8 +2583,7 @@ return {
             bl_fish = {
                 name = "󱥽󱤔",
                 text = {
-                    "Cards drawn face down",
-                    "after each hand played"
+                    "󱥞󱤙󱤭󱤡󱥞󱤘󱤂󱤮󱤉󱤪󱥝"
                 }
             },
             bl_window = {
